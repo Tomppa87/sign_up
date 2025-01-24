@@ -1,0 +1,17 @@
+@import url(https://fonts.bunny.net/css?family=aclonica:400);
+body {
+    font-family: 'Aclonica', sans-serif;
+    display: flex;
+}
+.sidebar {
+    width: 30%;
+    background-image: url(images/Backgroundphoto_sign_up.jpg);
+    background-color: antiquewhite;
+}
+.main {
+    width: 70%;
+}
+
+.icon {
+    width: 100px;
+}
