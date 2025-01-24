@@ -1,6 +1,6 @@
-@import url(https://fonts.bunny.net/css?family=aclonica:400);
+@import url(https://fonts.bunny.net/css?family=aclonica:400|arsenal:400);
 body {
-    font-family: 'Aclonica', sans-serif;
+    font-family: 'Arsenal', sans-serif;
     display: flex;
     height: 100vh;
 }
@@ -13,6 +13,7 @@ body {
     width: 30%;
     background-image: url(images/Backgroundphoto_sign_up.jpg);
     background-color: antiquewhite;
+    font-family: 'Aclonica', sans-serif;
 }
 .main {
     width: 70%;
@@ -56,7 +57,7 @@ body {
 .submit_btn {
     margin-top: 30px;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arsenal', sans-serif;
     border: 2px solid black;
     border-radius: 5px;
     background-color: var(--darker-bg-color);
