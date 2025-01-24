@@ -26,6 +26,7 @@ body {
 .header {
     background-color: var(--darker-bg-color);
     height: 17rem;
+    padding-right: 50px;
 }
 .form {
     background-color: var(--lighter-bg-color);
@@ -96,9 +97,16 @@ fieldset>* {
     padding-right: 20px;
 }
 input {
-    border: #E5E7EB;
+    border: 2px #E5E7EB;
     border-radius: 5px;
 }
 input:focus {
     box-shadow: 5px 5px 5px var(--darker-bg-color);
+}
+/*input:valid {
+    border: solid 2px green;
+    
+}*/
+input:invalid {
+    border: solid 1px red;
 }
