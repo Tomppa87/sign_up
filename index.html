@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
     <title>Sign Up Form</title>
 </head>
 <body>
@@ -36,21 +36,21 @@
                     <div class="names">
                         <div class="first_name">
                             <input type="text" name="first_name" id="first_name" required placeholder="Tommy">
-                            <label for="first_name">First Name</label>
+                            <label for="first_name">First Name *</label>
                         </div>
                         <div class="last_name">
                             <input type="text" name="last_name" id="last_name" required placeholder="Pyyrynen">
-                            <label for="last_name">Last Name</label>        
+                            <label for="last_name">Last Name *</label>        
                         </div>
                     </div>
                     <div class="contact_details">
                         <div class="email">
                             <input type="email" name="user_email" id="email" required placeholder="example@email.com">
-                            <label for="email">Email</label>        
+                            <label for="email">Email *</label>        
                         </div>
                         <div class="phone_number">
                             <input type="text" name="user_phone" id="phone_number" pattern="[0-9]{10}" required placeholder="0401234567">
-                            <label for="phone_number">Phone Number</label>
+                            <label for="phone_number">Phone Number *</label>
                         </div>
                     </div>
                     <div class="password_inputs">
@@ -66,7 +66,7 @@
                         
                     </fieldset>
             <fieldset>
-                <button class="submit_btn" type="submit">Create Account</button>
+                <button class="submit_btn" id="submit_btn" type="submit">Create Account</button>
             
             </fieldset>
             </form>

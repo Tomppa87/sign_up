@@ -49,6 +49,10 @@ body {
     opacity:0.6;
     position: relative;
     top: 10rem;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 
 .icon {
