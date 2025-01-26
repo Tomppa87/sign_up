@@ -63,8 +63,9 @@ body {
     border-radius: 5px;
     background-color: var(--darker-bg-color);
     color: white;  
-    width: 120px;
-    align-content: center;
+    width: 120px;    
+    align-items: center;
+    justify-content: center;
       
 }
 button:hover {

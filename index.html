@@ -55,11 +55,11 @@
                     </div>
                     <div class="password_inputs">
                         <div class="password">
-                            <input type="password" name="password" id="password" required placeholder="*****">
+                            <input type="password" name="password" id="password" required pattern="[\w\d]{6,}" placeholder="******">
                             <label for="password">Password</label>
                         </div>
                         <div class="password_conf">
-                            <input type="password" name="password_conf" id="password_conf">
+                            <input type="password" name="password_conf" id="password_conf" required pattern="[\w\d]{6,}" placeholder="******">
                             <label for="password_conf">Confirm Password</label>
                         </div>
                     </div>      
